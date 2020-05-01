@@ -7,6 +7,7 @@ namespace PersonDataReader.Service
 {
     public class ServiceReader
     {
+        // WebClient used in place of HttpClient for simplicity and to avoid async
         WebClient client = new WebClient();
         string baseUri = "http://localhost:9874/api/people";
 

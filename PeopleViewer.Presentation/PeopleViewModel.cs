@@ -41,6 +41,7 @@ namespace PeopleViewer.Presentation
 
         public string DataReaderType
         {
+            // displayed at bottom of window/panel UI
             get { return DataReader.GetType().ToString(); }
         }
 
