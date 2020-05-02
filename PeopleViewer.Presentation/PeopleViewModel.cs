@@ -24,9 +24,10 @@ namespace PeopleViewer.Presentation
             }
         }
 
-        public PeopleViewModel()
+        public PeopleViewModel(IPersonReader dataReader)
         {
-            DataReader = new ServiceReader();
+            // an example of Constructor Injection
+            DataReader = dataReader;
         }
 
         public void RefreshPeople()

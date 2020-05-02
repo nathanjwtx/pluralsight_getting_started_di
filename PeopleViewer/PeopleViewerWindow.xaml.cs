@@ -7,10 +7,12 @@ namespace PeopleViewer
     {
         PeopleViewModel viewModel;
 
-        public PeopleViewerWindow()
+        public PeopleViewerWindow(PeopleViewModel peopleViewModel)
         {
+            // didn't create an interface for PeopleViewModel as the relationship is generally one-to-one which makes
+            // the intention clear
             InitializeComponent();
-            viewModel = new PeopleViewModel();
+            viewModel = peopleViewModel;
             this.DataContext = viewModel;
         }
 
