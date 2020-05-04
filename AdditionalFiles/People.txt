@@ -1,6 +1,6 @@
 1,John,Koenig,1975/10/17,6,
 2,Dylan,Hunt,2000/10/02,8,
-3,Leela,Turanga,1999/3/28,8,{1} {0}
+3,Leela,Turanga,1999/3/28,8,
 4,John,Crichton,1999/03/19,7,
 5,Dave,Lister,1988/02/15,9,
 6,Laura,Roslin,2003/12/8,6,
